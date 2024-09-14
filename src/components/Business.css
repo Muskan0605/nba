@@ -1,0 +1,40 @@
+/* Main container styling */
+.business-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center the text and the button */
+  }
+  
+  /* Button styling with animation */
+  .discover-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add animation for color and scale */
+  
+    /* Center the button */
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Button hover effect with animation */
+  .discover-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* Button grows slightly */
+  }
+  
+  /* Additional info container */
+  .more-info {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Optional: Keep the text left-aligned in the info box */
+  }
+  
