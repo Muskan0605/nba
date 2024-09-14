@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Footer.css';
 import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
+  const [showForm, setShowForm] = useState(false);
+
+  const handleButtonClick = () => {
+    setShowForm(!showForm); // Toggle form visibility
+  };
+
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -35,6 +41,27 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      {/* Button to Show Form */}
+      <div className="btn">
+        <button onClick={handleButtonClick}>Connect With Us</button>
+      </div>
+
+      {/* Form that shows when button is clicked */}
+      {showForm && (
+        <div className="footer-contact-form">
+          <form className="contact-form">
+            <label htmlFor="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label htmlFor="contact">Contact No:</label>
+            <input type="tel" id="contact" name="contact" required />
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      )}
+
       <div className="footer-copyright">
         © All Copyright 2024 by NBA Tech Solutions
       </div>
