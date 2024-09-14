@@ -55,7 +55,7 @@ const Footer = () => {
             <input type="text" id="name" name="name" required />
 
             <label htmlFor="contact">Contact No:</label>
-            <input type="tel" id="contact" name="contact" required />
+            <input type="tel" id="contact" name="contact" email="email" required />
 
             <button type="submit">Submit</button>
           </form>
