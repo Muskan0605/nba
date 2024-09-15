@@ -65,10 +65,16 @@ const Footer = () => {
         </div>
       )}
 
+      <div className='email-support'>
+      <p>For Further Queries You can Mail Us At:</p>
+      anita@thenbatech.com | sales@thenbatech.com| support@thenbatech.com | skills@thenbatech.com</div>
+
       <div className="footer-copyright">
         © All Copyright 2024 by NBA Tech Solutions
       </div>
     </footer>
+
+    
   );
 };
 
