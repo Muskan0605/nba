@@ -4,24 +4,24 @@ import { FcCustomerSupport } from "react-icons/fc";
 
 const services = [
   {
-    name: 'Product Development',
-    imageUrl: '/images/product.png',
+    name: 'Software Development',
+    imageUrl: '/images/software.jpeg',
   },
   {
-    name: 'Cloud Solutions',
-    imageUrl: '/images/cloud.jpeg',
+    name: 'Cyber Security Services',
+    imageUrl: '/images/cyber.jpeg',
   },
   {
-    name: 'Artificial Intelligence',
-    imageUrl: '/images/ai.jpeg',
+    name: 'IT Infrastructure & Services',
+    imageUrl: '/images/itinfra.png',
   },
   {
-    name: 'Digital Marketing',
+    name: 'Digital Marketing & Communication',
     imageUrl: '/images/digitalmarketing.jpeg',
   },
   {
-    name: 'UI UX Designing',
-    imageUrl: '/images/uiuxde.jpeg',
+    name: 'HR Services & Training',
+    imageUrl: '/images/hr.jpeg',
   },
 ];
 

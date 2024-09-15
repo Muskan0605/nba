@@ -53,11 +53,9 @@ const Main = () => {
   return (
     <div>
       <h2>About <br></br>
-      <span>NBA Tech</span></h2>
-      <p>NBA Tech is a cutting-edge Information Technology firm dedicated to delivering comprehensive
-        IT solutions that empower businesses to thrive in the digital age. From consultancy services to
-        software development and cybersecurity, NBA Tech offers a full spectrum of services tailored to
-        meet the dynamic needs of our clients.</p>
+      <span>Welcome to NBA TECH - Shaping Tomorrow, Today</span></h2>
+      <p>⋆ Founded on July 11th, 2024, NBA TECH is driven by a powerful vision to secure and propel the future of technology. Mentored by an industry expert with over 25 years of experience in IT and Cybersecurity, NBA TECH is committed to providing cutting-edge solutions to businesses, ensuring they remain at the forefront of the digital age. Our aim is to create a quantum-safe world, where technology not only empowers but also protects.</p>
+      <p>⋆At NBA TECH, we pride ourselves on delivering a comprehensive range of services, including software development, web and mobile application development, digital marketing, cybersecurity, IT infrastructure solutions, and more. Our forward-thinking team is dedicated to crafting innovative solutions that meet the evolving demands of the digital landscape.</p>
       <CoreValues />
     </div>
   );

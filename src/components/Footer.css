@@ -37,6 +37,7 @@
     font-size: 16px;
     margin-bottom: 15px;
     color: white;
+    cursor: pointer;
   }
   
   .footer-contact-section h4 {
@@ -64,6 +65,7 @@
   
   .footer-contact-section p {
     margin: 5px 0;
+    cursor: pointer;
   }
   
   .footer-social-icons a {

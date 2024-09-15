@@ -31,9 +31,9 @@ const Footer = () => {
         {/* Contact Section */}
         <div className="footer-contact-section">
           <h4>Contact</h4>
-          <p><a href="tel:+919344269970">+91 9344269970</a></p>
-          <p><a href="mailto:nbatechofficial@gmail.com">nbatechofficial@gmail.com</a></p>
-          <p>Coimbatore, Tamil Nadu</p>
+          <p><a href="tel:+91 9170364639">+91 9170364639</a></p>
+          <p><a href="mailto:nbatechofficial@gmail.com">Nbatech467@gmail.com </a></p>
+          <p>Address - C 403 Royal Estate Apartment 7 B Laplace Lucknow-226001</p>
           <div className="footer-social-icons">
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
@@ -53,9 +53,12 @@ const Footer = () => {
           <form className="contact-form">
             <label htmlFor="name">Name:</label>
             <input type="text" id="name" name="name" required />
-
             <label htmlFor="contact">Contact No:</label>
-            <input type="tel" id="contact" name="contact" email="email" required />
+            <input type="tel" id="contact" name="contact"required />
+            <label htmlFor="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label htmlFor="address">Address:</label>
+            <input type="text" id="address" name="address" required />
 
             <button type="submit">Submit</button>
           </form>

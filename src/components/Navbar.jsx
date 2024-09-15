@@ -39,9 +39,9 @@ const Navbar = () => {
 
 <section className='main-content'>
 <div className='paragraph-section'>
-          <p>IT Software Solution &
+          <p>Empowering a Quantum Safe Future
           <br></br> 
-          <span>Technology</span></p>
+          <span>With Advanced IT Solutions</span></p>
         </div>
 <div className='image-section'>
         <div className='image-container'>
